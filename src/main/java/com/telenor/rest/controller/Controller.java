@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     
     @RequestMapping("/Index")
-    public void Index(){
+    public void Start(){
     
         System.out.println("working properly");
     }
